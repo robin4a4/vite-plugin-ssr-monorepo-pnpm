@@ -24,7 +24,7 @@ Here the `@vite-plugin-ssr-monorepo/renderer` package is not recognized.
 
 ## importing the real @brillout/stem-react package
 
-````
+```
 --> load /Users/robinmarillia/Documents/dev/lab/vite-plugin-ssr-monorepo-pnpm/packages/site/pages/index/index.page.tsx
 --> load /Users/robinmarillia/Documents/dev/lab/vite-plugin-ssr-monorepo-pnpm/packages/site/pages/_default/_default.page.server.tsx
 --> load /Users/robinmarillia/Documents/dev/lab/vite-plugin-ssr-monorepo-pnpm/packages/site/pages/_default/_default.page.tsx
@@ -37,4 +37,3 @@ Here the `@vite-plugin-ssr-monorepo/renderer` package is not recognized.
 ```
 
 Here the `@brillout/stem-react` package is correctly recognized.
-````
