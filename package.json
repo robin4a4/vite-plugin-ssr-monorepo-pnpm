@@ -1,0 +1,13 @@
+{
+  "name": "vite-plugin-ssr-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/renderer",
+    "packages/site"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.14.0"
+}
