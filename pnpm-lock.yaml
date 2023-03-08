@@ -42,7 +42,7 @@ importers:
 
   packages/site:
     specifiers:
-      '@brillout/stem-react': ^0.1.3
+      '@vite-plugin-ssr-monorepo/renderer': workspace:*
       '@vitejs/plugin-react': ^3.0.0
       cross-fetch: ^3.1.5
       node-fetch: ^2.6.7
@@ -51,7 +51,7 @@ importers:
       vite: ^4.0.3
       vite-plugin-ssr: 0.4.91
     dependencies:
-      '@brillout/stem-react': 0.1.3_vite@4.1.4
+      '@vite-plugin-ssr-monorepo/renderer': link:../renderer
       '@vitejs/plugin-react': 3.1.0_vite@4.1.4
       cross-fetch: 3.1.5
       node-fetch: 2.6.9
@@ -338,28 +338,6 @@ packages:
       js-yaml: 4.1.0
       picocolors: 1.0.0
       semver: 7.3.8
-    dev: false
-
-  /@brillout/stem-react/0.1.3_vite@4.1.4:
-    resolution: {integrity: sha512-OAmzO5Tm1dhymXY1W3dlsYAYq6OwlZTXru6vG55RanyHifvGd2lmtPGaYuRnjOShFtF+xdYpqW/BgVsRSxLhpg==}
-    peerDependencies:
-      vite: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      vite:
-        optional: true
-      vite-plugin-ssr:
-        optional: true
-    dependencies:
-      '@brillout/eject': 0.1.2
-      '@brillout/release-me': 0.0.8
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      vite: 4.1.4
-      vite-plugin-ssr: 0.4.91_vite@4.1.4
-    transitivePeerDependencies:
-      - react-streaming
     dev: false
 
   /@brillout/vite-plugin-import-build/0.2.12:
